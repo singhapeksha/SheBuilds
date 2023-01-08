@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Stay Safe</title>
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css'>
+<link rel='stylesheet' href='https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="contact" id="contact">
+  <div class="container">
+    <div class="col-md-offset-1 col-md-10">
+      <h2>Trace<i class="fa fa-paper-plane-o"></i></h2>
+      <div id="map-canvas"></div>
+    </div>
+    <form method="post" action="contact.php" name="contactform" id="contactform">
+      <div class="col-md-offset-1 col-md-5">
+        <fieldset>
+          <input name="name" type="text" id="name" size="30" placeholder="Name of the person">
+          <br>
+          <input name="email" type="text" id="email" size="30" placeholder="Emergency Email ID">
+          <br>
+          <input name="phone" type="text" id="phone" size="30" placeholder="Emergency Phone no">
+          <br>
+          <input name="human" type="text" id="code" size="30" placeholder="Enter your Unique Code">
+          <br>
+        </fieldset>
+      </div>
+      <div class="col-md-5">
+        <fieldset>
+          <textarea name="comments" cols="40" rows="20" id="comments" placeholder="Information about journey"></textarea>
+        </fieldset>
+      </div>
+      <div class="col-md-offset-1 col-md-10">
+        <fieldset>
+          <button type="submit" class="btn btn-lg" id="submit" value="Submit">Start Journey</button>
+        </fieldset>
+      </div>
+    </form>
+  </div>
+</div>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC31y9uP9Nc2swCrx_WnHfOZraqpIQ9wt0&callback=initMap"></script>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

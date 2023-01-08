@@ -1,0 +1,259 @@
+html {
+  height: 100%;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.cloak {
+  display: block;
+}
+
+hr {
+  width: 70px;
+  border-color: #FFAFEF;
+  border-width: 2px;
+  height: 2px;
+}
+
+.bannerBtn {
+  border: none;
+  background: black;
+  color: white;
+  padding: 10px 20px;
+}
+.bannerBtn:hover {
+  background: #FFAFEF;
+}
+
+.inputInline {
+  width: 49%;
+  float: left;
+}
+
+.navbar-btn {
+  padding-top: 13px;
+  margin: 0 10px 0 0;
+  color: black;
+  font-size: 18px;
+}
+.navbar-btn:hover {
+  color: red;
+}
+
+.navbar {
+  background:#FFAFEF;
+}
+.navbar .navbar-toggle {
+  border-color: black;
+}
+.navbar .navbar-toggle .icon-bar {
+  background-color: black;
+}
+.navbar .navbar-brand {
+  color: black;
+}
+.navbar .navbar-brand:hover {
+  color: black;
+}
+.navbar .navActive {
+  color: black;
+}
+
+.parallax, .parallaxSection, .parallaxTop {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0;
+}
+
+.parallaxTop {
+  background-image: url("https://s-media-cache-ak0.pinimg.com/originals/36/35/2a/36352ae27230662df69e64e0e465b606.jpg");
+  min-height: 100vh;
+}
+
+.parallaxSection {
+  min-height: 250px;
+}
+
+.shadow, .shadowSection {
+  background: rgba(0, 0, 0, 0.3);
+  min-height: 100vh;
+  width: 100%;
+}
+
+.shadowSection {
+  min-height: 250px;
+}
+
+.jumboBanner {
+  text-align: center;
+}
+.jumboBanner .banner {
+  color: white;
+  padding-top: 30vh;
+  text-align: center;
+  font-family: fantasy;
+  font-size: 112px;
+  margin-top: 0;
+}
+.jumboBanner .motto {
+  color: white;
+  margin: 50px auto;
+}
+
+#aboutBlock {
+  width: 94%;
+}
+
+#aboutRow, .aboutLeft, .aboutRight, .aboutImg {
+  min-height: 400px;
+  margin: 20px auto;
+}
+#aboutRow hr, .aboutLeft hr, .aboutRight hr, .aboutImg hr {
+  margin-left: 0;
+  text-align: left;
+}
+#aboutRow .aboutImg, .aboutLeft .aboutImg, .aboutRight .aboutImg, .aboutImg .aboutImg {
+  background-image: url("https://s3.scoopwhoop.com/anj/education/3323016.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#servicesRow {
+  background-image: url("http://deliadolor.com/wp-content/uploads/2018/03/shutterstock_shutterstock_95384590.jpg");
+  text-align: center;
+  color: Black;
+}
+#servicesRow h2 {
+  padding-top: 100px;
+}
+
+#serviceBlocks .container {
+  width: 94%;
+}
+
+.serviceBlock {
+  text-align: center;
+  margin: 20px auto 50px auto;
+  padding: 25px;
+}
+.serviceBlock img {
+  width: 100px;
+  height: 100px;
+  margin: 10px 0 20px 0;
+}
+.serviceBlock p {
+  font-size: 18px;
+}
+
+.phoneContact {
+  background: #FFAFEF;
+  text-align: center;
+  color: white;
+  min-height: 200px;
+}
+.phoneContact h2 {
+  margin: 100px 0;
+}
+
+#formMessage {
+  margin-bottom: 2%;
+  height: 100px;
+  max-width: 100%;
+}
+
+.contactForm {
+  margin: 50px auto;
+  text-align: center;
+}
+.contactForm h2 {
+  margin: 0 auto;
+}
+.contactForm form {
+  width: 75%;
+  margin: 50px auto 0 auto;
+}
+.contactForm form input {
+  margin-bottom: 2%;
+}
+.contactForm form input[name=name] {
+  margin-right: 2%;
+}
+
+#contactInfo {
+  background: #131413;
+  min-height: 200px;
+}
+#contactInfo .contactStack {
+  margin: 50px 0;
+  text-align: center;
+  font-size: 16px;
+}
+#contactInfo h4 {
+  color: #FFAFEF;
+}
+#contactInfo p {
+  color: #9d9d9d;
+}
+
+#copyright {
+  background: #FFAFEF;
+  min-height: 125px;
+  text-align: center;
+  color: white;
+}
+#copyright #facebook {
+  background-image: url("http://www.iconarchive.com/download/i54037/danleech/simple/facebook.ico");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#copyright #twitter {
+  background-image: url("http://www.freeiconspng.com/uploads/twitter-icon-twitter-icon-7.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#copyright #linkedin {
+  background-image: url("https://pbs.twimg.com/profile_images/614583061448036352/CBpFkPaz.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#copyright .social, #copyright img {
+  height: 50px;
+  width: 50px;
+  border: none;
+  margin: 30px 5px 0px 5px;
+}
+#copyright p {
+  margin: 30px 0;
+}
+
+@media screen and (max-width: 766px) {
+  .jumboBanner .banner {
+    font-size: 72px;
+  }
+
+  .cloak {
+    display: none;
+  }
+}
+@media screen and (max-width: 500px) {
+  .inputInline {
+    width: 100%;
+    float: none;
+  }
+
+  form input {
+    margin-bottom: 5%;
+  }
+
+  input[name=submit] {
+    width: 100%;
+  }
+
+  input[name=name] {
+    margin-right: 0%;
+  }
+}
